@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{  
+    background-image: url(https://images.unsplash.com/photo-1508615039623-a25605d2b022?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjZ8fGxpbmVhciUyMGdyYWRpZW50fGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#mainheader{
+    width: 50%;
+    min-height: 100px;
+    margin: 150px auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #10101d;
+    color: white;
+    box-shadow: 2px 2px 5px #495057;
+}
+#mainheader h2{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+#inputheader{
+    background-color: #10101d;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 80px;
+}
+#inputheader button{
+    font-size: 2rem;
+    background-color: transparent;
+    border: none;
+    float: right;
+    margin-right: 40px;
+    margin-top: 10px;
+    transition: 100ms;
+    cursor: pointer;
+}
+button:focus{
+    outline: none;
+}
+button:active{
+    transform: scale(0.6);
+}
+i{
+    color: #457b9d;
+}
+input{
+    color: white;
+    margin-top: 10px;
+    margin-left:15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2rem;
+    height: 40px;
+    width: 80%;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid white;
+}
+input:focus{
+    outline: none;
+}
+li{
+    font-size: 1rem;
+    font-family:'Courier New', Courier, monospace;
+    list-style: none;
+    width: 80%;
+    height: 30px;
+    margin:10px 50px;
+    margin-bottom: 20px;
+    border-bottom:1px solid #0096c7;
+    padding:10px;
+}
+.deletebutton{  
+    float: right;
+    cursor: pointer;
+    margin-right: 10px;
+    font-size: 1rem;
+    color:#9d0208;
+    background-color: transparent;
+    border: none;
+    align-self: center;
+    transition: 100ms;
+}
+.donebtn{
+    cursor: pointer;
+    color: white;
+    font-size: 1rem;
+    float: right;
+    margin-right:20px;
+    background-color: transparent;
+    border: none;
+    transition: 200ms;
+}
+@media screen and (max-width:900px){
+    #inputheader{
+        height: 120px;
+    }
+    li{
+        height: 80px;
+    }
+}
